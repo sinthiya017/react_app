@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './hello/About';
 import Education from './hello/Education';
 import Login from './hello/Login';
-import Home from './hello/Hello';
+import Home from './hello/Home';
 function App() {
   return (
 
@@ -30,6 +30,19 @@ function App() {
 
       <header className="App-header">
         
+{/*<Statecomponent/>*/}
+<img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
