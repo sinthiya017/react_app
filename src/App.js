@@ -11,6 +11,9 @@ import About from './hello/About';
 import Education from './hello/Education';
 import Login from './hello/Login';
 import Home from './hello/Home';
+import Footer from './hello/Footer';
+import Termsofservice from './hello/Termsofservice';
+import PrivacyPolicy from './hello/Privacypolicy';
 function App() {
   return (
 
@@ -18,10 +21,10 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path='/Home' element={<Home/>}></Route>
+          <Route path='/Home' element={<Home />}></Route>
           <Route path='/About' element={<About />}></Route>
           <Route path='/Education' element={<Education />}></Route>
-          <Route path='/Login' element={<Login/>}></Route>
+          <Route path='/Login' element={<Login />}></Route>
 
         </Routes>
       </BrowserRouter>
@@ -29,9 +32,9 @@ function App() {
       {/* <Propscomponent name="sinthiya" course="MERN"/> */}
 
       <header className="App-header">
-        
-{/*<Statecomponent/>*/}
-<img src={logo} className="App-logo" alt="logo" />
+
+        {/*<Statecomponent/>*/}
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -44,6 +47,20 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <footer> */}
+       
+          <p>&copy; 2004 All Rights Reserved by <span>authorized</span></p>
+          <BrowserRouter>
+            <Footer />
+            <Routes>
+              <Route path='/Termsofservice' element={<Termsofservice />}></Route>
+              <Route path='/PrivacyPolicy' element={<PrivacyPolicy />}></Route>
+
+
+            </Routes>
+          </BrowserRouter>
+
+      <footer/>
     </div>
   );
 }

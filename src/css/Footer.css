@@ -1,0 +1,12 @@
+footer{
+    display:flex;
+    justify-content: space-evenly;
+    /* list-style-type: none;  to hode the numbers in ol */
+    background-color: aqua;
+    margin:0px;
+    /*justify-content: center;
+        align-items: center;
+        flex-direction: column;*/
+    
+
+}
