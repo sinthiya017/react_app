@@ -1,6 +1,6 @@
 const Education =()=>{
     return(
-        <div>
+        <div style={{backgroundColor:"plum"}}>
             <h1>This page is Education of me</h1>
         </div>
     )

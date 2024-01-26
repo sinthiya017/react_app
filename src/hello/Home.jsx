@@ -1,6 +1,6 @@
 const Home =()=>{
     return(
-        <div>
+        <div style={{backgroundColor:"plum"}}>
             <h1>This page is Home page</h1>
         </div>
     )

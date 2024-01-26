@@ -1,8 +1,8 @@
-footer{
-    display:flex;
+Footer,p,ul{
+    /* display:flex; */
     justify-content: space-evenly;
     /* list-style-type: none;  to hode the numbers in ol */
-    background-color: aqua;
+    background-color:pink;
     margin:0px;
     /*justify-content: center;
         align-items: center;

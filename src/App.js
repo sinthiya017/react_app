@@ -14,6 +14,7 @@ import Home from './hello/Home';
 import Footer from './hello/Footer';
 import Termsofservice from './hello/Termsofservice';
 import PrivacyPolicy from './hello/Privacypolicy';
+import SignUp from './hello/SignUp';
 function App() {
   return (
 
@@ -25,9 +26,10 @@ function App() {
           <Route path='/About' element={<About />}></Route>
           <Route path='/Education' element={<Education />}></Route>
           <Route path='/Login' element={<Login />}></Route>
-
+          <Route path='/SignUp' element={<SignUp />}></Route>
         </Routes>
       </BrowserRouter>
+      
 
       {/* <Propscomponent name="sinthiya" course="MERN"/> */}
 
@@ -35,9 +37,9 @@ function App() {
 
         {/*<Statecomponent/>*/}
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h5>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </h5>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -49,7 +51,7 @@ function App() {
       </header>
       {/* <footer> */}
        
-          <p>&copy; 2004 All Rights Reserved by <span>authorized</span></p>
+          
           <BrowserRouter>
             <Footer />
             <Routes>

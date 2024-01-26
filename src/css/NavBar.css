@@ -1,9 +1,14 @@
-ul{
-    display:flex;
+ul {
+    display: flex;
     justify-content: space-evenly;
     /* list-style-type: none;  to hode the numbers in ol */
     background-color: aqua;
-    margin:0px;
-    
+    margin: 0px;
 
 }
+
+.Link{
+
+    text-decoration: none;
+}
+
