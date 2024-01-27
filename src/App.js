@@ -14,7 +14,7 @@ import Home from './hello/Home';
 import Footer from './hello/Footer';
 import Termsofservice from './hello/Termsofservice';
 import PrivacyPolicy from './hello/Privacypolicy';
-import SignUp from './hello/SignUp';
+import SignUp from './hello/SignUp';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 function App() {
   return (
 
@@ -35,7 +35,7 @@ function App() {
 
       <header className="App-header">
 
-        {/*<Statecomponent/>*/}
+        {/* <Statecomponent/>
         <img src={logo} className="App-logo" alt="logo" />
         <h5>
           Edit <code>src/App.js</code> and save to reload.
@@ -47,13 +47,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
       {/* <footer> */}
        
           
           <BrowserRouter>
-            <Footer />
+            <Footer />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
             <Routes>
               <Route path='/Termsofservice' element={<Termsofservice />}></Route>
               <Route path='/PrivacyPolicy' element={<PrivacyPolicy />}></Route>
