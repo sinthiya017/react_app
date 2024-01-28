@@ -14,7 +14,9 @@ import Home from './hello/Home';
 import Footer from './hello/Footer';
 import Termsofservice from './hello/Termsofservice';
 import PrivacyPolicy from './hello/Privacypolicy';
-import SignUp from './hello/SignUp';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+import SignUp from './hello/SignUp';   
+import Reference from './hello/reference';       
+import Callback from './hello/callback';                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 function App() {
   return (
 
@@ -27,6 +29,8 @@ function App() {
           <Route path='/Education' element={<Education />}></Route>
           <Route path='/Login' element={<Login />}></Route>
           <Route path='/SignUp' element={<SignUp />}></Route>
+          <Route path='/Reference' element={<Reference />}></Route>
+          <Route path='/callback' element={<Callback />}></Route>
         </Routes>
       </BrowserRouter>
       

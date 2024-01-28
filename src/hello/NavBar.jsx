@@ -8,6 +8,10 @@ const NavBar=()=>{
             <li><Link to="/Education"class="Link">Education</Link></li>
             <li><Link to="/Login"class="Link">Login</Link></li>
             <li><Link to="/SignUp"class="Link">SignUp</Link></li>
+            <li><Link to="/Reference"class="Link">Reference</Link></li>
+            <li><Link to="/callback"class="Link">callback</Link></li>
+            
+            
 
         </ul>
        
